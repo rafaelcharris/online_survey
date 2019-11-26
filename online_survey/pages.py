@@ -15,19 +15,19 @@ class BX(Page):
 class demo(Page):
     form_model = 'player'
     form_fields = [
-    "barrio_violento",
-    "barrio_ayuda",
-    "barrio_seguro",
-    "trust"
-    ]
-
-class ResultsWaitPage(WaitPage):
-    def after_all_players_arrive(self):
-        pass
+        "barrio_violento",
+        "barrio_ayuda",
+        "barrio_seguro",
+        "trust"
+        ]
 
 
 class emotions(Page):
-    pass
+    form_model =  'player'
+    form_fields = [
+        "interesado", "disgustado", "afligido","Excitado", "Disgustado", "Fuerte", "Culpable", "Asustado", "Hostil", "Entusiasmado", "Orgulloso", "Irritable", "Alerta", "Avergonzado",
+        "Inspirado", "Nervioso", "Atento", "Temeroso"
+    ]
 
 
 page_sequence = [MyPage, ResultsWaitPage, Results]
