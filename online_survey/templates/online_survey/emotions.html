@@ -2,12 +2,174 @@
 {% load otree static %}
 
 {% block title %}
-    Page title
+    Cuestionario
 {% endblock %}
 
 {% block content %}
 
-    {% next_button %}
-{% endblock %}
+<p>Para cada una de las siguientes afirmaciones, indique en qué grado está en  desacuerdo o de acuerdo: </p>
 
+<table class="table">
+    <tr>
+
+<th> Afirmación</th>
+
+<th>Muy poco o para nada</th>
+<th>Un poco</th>
+<th>Moderadamente</th>
+<th>Bastante</th>
+<th>Extremadamente</th>
+
+</tr>
+
+    <tr>
+    <td>Interesado</td>
+   <td><div class="radio "><label><input type="radio" name="interested" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="interested" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="interested" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="interested" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="interested" value="5"> </label></div></td>
+  </tr>
+ <tr>
+    <td>Disgustado</td>
+    <td><div class="radio "><label><input type="radio" name="afligido" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="irritado" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="irritado" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="irritado" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="irritado" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Excitado</td>
+    <td><div class="radio "><label><input type="radio" name="Excitado" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Excitado" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Excitado" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Excitado" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Excitado" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Disgustado</td>
+    <td><div class="radio "><label><input type="radio" name="Disgustado" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Disgustado" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Disgustado" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Disgustado" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Disgustado" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Fuerte</td>
+   <td><div class="radio "><label><input type="radio" name="Fuerte" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Fuerte" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Fuerte" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Fuerte" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Fuerte" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Culpable</td>
+  <td><div class="radio "><label><input type="radio" name="Culpable" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Culpable" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Culpable" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Culpable" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Culpable" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Asustado</td>
+   <td><div class="radio "><label><input type="radio" name="Asustado" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Asustado" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Asustado" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Asustado" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Asustado" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Hostil</td>
+   <td><div class="radio "><label><input type="radio" name="Hostil" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Hostil" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Hostil" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Hostil" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Hostil" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Entusiasmado</td>
+   <td><div class="radio "><label><input type="radio" name="Entusiasmado" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Entusiasmado" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Entusiasmado" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Entusiasmado" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Entusiasmado" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Orgulloso</td>
+   <td><div class="radio "><label><input type="radio" name="Orgulloso" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Orgulloso" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Orgulloso" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Orgulloso" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Orgulloso" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Irritable</td>
+   <td><div class="radio "><label><input type="radio" name="Irritable" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Irritable" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Irritable" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Irritable" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Irritable" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Alerta</td>
+   <td><div class="radio "><label><input type="radio" name="Alerta" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Alerta" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Alerta" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Alerta" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Alerta" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Avergonzado</td>
+   <td><div class="radio "><label><input type="radio" name="Avergonzado" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Avergonzado" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Avergonzado" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Avergonzado" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Avergonzado" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Inspirado</td>
+   <td><div class="radio "><label><input type="radio" name="Inspirado" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Inspirado" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Inspirado" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Inspirado" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Inspirado" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Nervioso</td>
+   <td><div class="radio "><label><input type="radio" name="Nervioso" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Nervioso" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Nervioso" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Nervioso" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Nervioso" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Decidido</td>
+   <td><div class="radio "><label><input type="radio" name="Decidido" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Decidido" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Decidido" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Decidido" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Decidido" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Atento</td>
+   <td><div class="radio "><label><input type="radio" name="Atento" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Atento" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Atento" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Atento" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="Atento" value="5"> </label></div></td>
+  </tr>
+     <tr>
+    <td>Temeroso</td>
+   <td><div class="radio "><label><input type="radio" name="temeroso" value="1"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="temeroso" value="2"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="temeroso" value="3"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="temeroso" value="4"> </label></div></td>
+                <td><div class="radio "><label><input type="radio" name="temeroso" value="5"> </label></div></td>
+  </tr>
+</table>
+
+
+    {% next_button %}
+
+{% endblock %}
 

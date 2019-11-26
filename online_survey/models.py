@@ -83,3 +83,4 @@ class Player(BasePlayer):
                                  widget = widgets.RadioSelectHorizontal)
 
     #Emotion
+
