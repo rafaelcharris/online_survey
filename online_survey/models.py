@@ -84,3 +84,20 @@ class Player(BasePlayer):
 
     #Emotion
 
+    interesado = models.IntegerField(choices= [1,2,3,4,5])
+    afligido = models.IntegerField(choices= [1,2,3,4,5])
+    Excitado = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Disgustado = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Fuerte = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Culpable = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Asustado = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Hostil = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Entusiasmado = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Orgulloso = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Irritable = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Alerta = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Avergonzado = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Inspirado = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Nervioso = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Atento = models.IntegerField(choices=[1, 2, 3, 4, 5])
+    Temeroso = models.IntegerField(choices=[1, 2, 3, 4, 5])
