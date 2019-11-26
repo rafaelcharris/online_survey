@@ -39,11 +39,11 @@ def preg_likert(label):
 
 class Player(BasePlayer):
 
-    pol_participation = models.BooleanField(label = "¿Usted asistió en la marcha del Paro Nacional del 21 de noviembre pasado?",
+    pol_participation = models.BooleanField(label = "¿Usted asistió a la marcha del Paro Nacional del 21 de noviembre pasado?",
                                              choices = [[True, "Sí"],
                                                        [False, "No"]]
                                              )
-    belief_pol = models.IntegerField(label = "¿Qué porcentaje de personas, que van a responder este estudio, cree usted que asistieron en la marcha del Paro Nacional del 21 de noviembre pasado?",
+    belief_pol = models.IntegerField(label = "¿Qué porcentaje de personas, de las que van a responder este estudio, cree usted que asistieron a la marcha del Paro Nacional del 21 de noviembre pasado?",
                                              choices = [[1, "[0% -20%]"],
                                                        [2, "[21% - 40%]"],
                                                         [3, "[41% - 60%]"],
@@ -56,7 +56,7 @@ class Player(BasePlayer):
                                                [False, "No"]]
                                       )
 
-    belief_emp = models.IntegerField(label = "¿Qué porcentaje de personas, que van a responder este estudio, cree usted que respondieron sí ea la pregunta anterior?",
+    belief_emp = models.IntegerField(label = "¿Qué porcentaje de personas, de las que van a responder este estudio, cree usted que respondieron 'sí' a la pregunta anterior?",
                                      choices = [[1, "[0% -20%]"],
                                                        [2, "[21% - 40%]"],
                                                         [3, "[41% - 60%]"],
@@ -75,10 +75,10 @@ class Player(BasePlayer):
         label='¿Se siente seguro mientras camina en la tarde en su barrio?'
     )
 
-    trust = models.IntegerField(label = "¿Cómo se ve a usted mismo?"
-                                          "Mientras no me convenzan de lo contrario, asumo que las personas tienen las mejores intenciones. "
-                                          "Por favor, use la escala de 0 a 10 que aparece abajo, donde 0 significa 'No me describe en absoluto' y 10 significa 'Me describe perfectamente'. "
-                                          "También puede usar los valores intermedios para indicar dónde se encuentra en la escala.",
+    trust = models.IntegerField(label = '¿Cómo se ve a usted mismo? '
+                                          'Mientras no me convenzan de lo contrario, asumo que las personas tienen las mejores intenciones.' 
+                                          ' Por favor, use la escala de 0 a 10 que aparece abajo, donde 0 significa "No me describe en absoluto" y 10 significa "Me describe perfectamente". '
+                                          'También puede usar los valores intermedios para indicar dónde se encuentra en la escala.',
                                 min = 1,
                                 max =10,
                                 widget = widgets.Slider,)

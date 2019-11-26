@@ -25,7 +25,7 @@ class demo(Page):
 class emotions(Page):
     form_model = 'player'
     form_fields = [
-        "interesado", "disgustado", "afligido","Excitado", "Disgustado", "Fuerte", "Culpable", "Asustado", "Hostil", "Entusiasmado", "Orgulloso", "Irritable", "Alerta", "Avergonzado",
+        "interesado", "afligido","Excitado", "Disgustado", "Fuerte", "Culpable", "Asustado", "Hostil", "Entusiasmado", "Orgulloso", "Irritable", "Alerta", "Avergonzado",
         "Inspirado", "Nervioso", "Atento", "Temeroso"
     ]
 
