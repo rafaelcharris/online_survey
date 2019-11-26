@@ -75,12 +75,13 @@ class Player(BasePlayer):
         label='¿Se siente seguro mientras camina en la tarde en su barrio?'
     )
 
-    trust = models.IntegerField(labels = "How well does the following statement describe you as a person? "
-                                          "As long as I am not convinced otherwise, I assume that people have only the best intentions. "
-                                          "Please use a scale from 0 to 10, where 0 means \does not describe me at all and a 10 means \describes me perfectly. "
-                                          "You can also use the values in-between to indicate where you fall on the scale.",
-                                 choices = [0,1,2,3,4,5,6,7,8,9,10],
-                                 widget = widgets.RadioSelectHorizontal)
+    trust = models.IntegerField(labels = "¿Cómo se ve a usted mismo?"
+                                          "Mientras no me convenzan de lo contrario, asumo que las personas tienen las mejores intenciones. "
+                                          "Por favor, use la escala de 0 a 10 que aparece abajo, donde 0 significa \"No me describe en absoluto\" y 10 significa \"Me describe perfectamente\". "
+                                          "También puede usar los valores intermedios para indicar dónde se encuentra en la escala.",
+                                min = 1,
+                                max =10,
+                                widget = widgets.Slider)
 
     #Emotion
 
