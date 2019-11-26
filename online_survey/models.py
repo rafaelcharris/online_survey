@@ -75,13 +75,13 @@ class Player(BasePlayer):
         label='¿Se siente seguro mientras camina en la tarde en su barrio?'
     )
 
-    trust = models.IntegerField(labels = "¿Cómo se ve a usted mismo?"
+    trust = models.IntegerField(label = "¿Cómo se ve a usted mismo?"
                                           "Mientras no me convenzan de lo contrario, asumo que las personas tienen las mejores intenciones. "
-                                          "Por favor, use la escala de 0 a 10 que aparece abajo, donde 0 significa \"No me describe en absoluto\" y 10 significa \"Me describe perfectamente\". "
+                                          "Por favor, use la escala de 0 a 10 que aparece abajo, donde 0 significa 'No me describe en absoluto' y 10 significa 'Me describe perfectamente'. "
                                           "También puede usar los valores intermedios para indicar dónde se encuentra en la escala.",
                                 min = 1,
                                 max =10,
-                                widget = widgets.Slider)
+                                widget = widgets.Slider,)
 
     #Emotion
 

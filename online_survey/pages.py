@@ -23,11 +23,11 @@ class demo(Page):
 
 
 class emotions(Page):
-    form_model =  'player'
+    form_model = 'player'
     form_fields = [
         "interesado", "disgustado", "afligido","Excitado", "Disgustado", "Fuerte", "Culpable", "Asustado", "Hostil", "Entusiasmado", "Orgulloso", "Irritable", "Alerta", "Avergonzado",
         "Inspirado", "Nervioso", "Atento", "Temeroso"
     ]
 
 
-page_sequence = [MyPage, ResultsWaitPage, Results]
+page_sequence = [BX, demo, emotions]
